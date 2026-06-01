@@ -1,69 +1,61 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Qt Creator
+CMakeLists.txt.user
+CMakeLists.txt.user.*
 
 # Build directories
 build/
-Build/
-build-*/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# Qt Creator generated files
+*.pro.user
+*.pro.user.*
 
-# Temporary files
-*.tmp
-*.log
-*.bak
+# User files
+.vscode/
+.idea/
 *.swp
+*.swo
+*~
 
-# vcpkg
+# Compiled objects
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# Qt generated files
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.moc
+
+# Executables
+*.exe
+bin/
+
+# OS specific
+.DS_Store
+Thumbsdb
+*.tmp
+
+# IDE
+.vs/
+.vscode/
+*.code-workspace
+
+# Dependencies
 vcpkg_installed/
 
-# debug information files
-*.dwo
+# Configuration
+*.user
+*.pri
 
-# test output & cache
-Testing/
-.cache/
+# Data files (local)
+data/*.json
+data/*.db
+*.log
